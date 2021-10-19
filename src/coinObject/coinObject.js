@@ -35,11 +35,11 @@ const coin = {
     const image = document.createElement("img");
     image.classList.add("images");
     if (coin.state === 0) {
-      image.src = "/src/img/bitcoin.svg";
+      image.src = "./src/img/bitcoin.svg";
       image.alt = "Heads";
     }
     if (coin.state === 1) {
-      image.src = "/src/img/dolar.svg";
+      image.src = "./src/img/dolar.svg";
       image.alt = "Tails";
     }
     return divImg.append(image);
